@@ -51,7 +51,7 @@ export const RightSide: React.FC = () => {
 	return (
 		<div className='right-side w-[260px]'>
 			<div onClick={() => setOpen(!open)} className='flex items-center space-x-3 mb-5 cursor-pointer'>
-				<h1>Comments</h1>
+				<h1 className='font-bold text-2xl'>Comments</h1>
 				<IconButton>
 					{open 
 					? <KeyboardArrowDownIcon />
@@ -66,7 +66,7 @@ export const RightSide: React.FC = () => {
 						<h2 className=' font-bold'>{item.user.fullname}</h2>
 					</div>
 					<p className='mb-3'>{item.text}</p>
-					<h3 className='mb-5 font-medium'>{item.post.title}</h3>
+					<h3 className='mb-5 font-medium text-lg'>{item.post.title}</h3>
 				</div>
 			))}
 		</div>

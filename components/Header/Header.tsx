@@ -96,7 +96,7 @@ export const Header = () => {
 
 
   return (
-    <Box sx={{ display: 'flex' }} className="mb-28">
+    <Box sx={{ display: 'flex' }} className="mb-24">
       <CssBaseline />
       <AppBar position="fixed" open={open}>
         <Toolbar className='bg-red-200 flex justify-between items-center '>

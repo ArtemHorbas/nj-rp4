@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Button, IconButton } from '@mui/material';
 
 const menu = [
-	{ text: 'Lenta', icon: <WhatshotOutlined />, path: '/' },
+	{ text: 'News', icon: <WhatshotOutlined />, path: '/' },
 	{ text: 'Messages', icon: <SmsOutlined />, path: '/messages' },
 	{ text: 'Rating NJ', icon: <TrendingUpRounded />, path: '/rating' },
 	{ text: 'Subscribes', icon: <FormatListBulletedOutlined />, path: '/follows' },
