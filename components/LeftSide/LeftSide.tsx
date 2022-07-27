@@ -19,9 +19,7 @@ export const LeftSide: React.FC = () => {
 					<li key={obj.path}>
 						<Link href={obj.path}>
 							<Button className='flex items-center space-x-2'>							
-								<IconButton>
-									{obj.icon}
-								</IconButton>
+								{obj.icon}
 								<div>{obj.text}</div>
 							</Button>
 						</Link>
