@@ -30,7 +30,7 @@ export const MainLayout: React.FC<MainLayoutProps> = ({
 			<Header />
 			<div className='wrapper'>
 				<main className='flex justify-between'>
-					{/* <LeftSide /> */}
+					<LeftSide />
 					<>
 						{children}
 					</>
