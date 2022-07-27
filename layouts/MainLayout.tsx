@@ -31,9 +31,9 @@ export const MainLayout: React.FC<MainLayoutProps> = ({
 			<div className='wrapper'>
 				<main className='flex justify-between'>
 					<LeftSide />
-					<>
+					<div className='flex flex-col space-y-6'>
 						{children}
-					</>
+					</div>
 					<RightSide />
 				</main>					
 			</div>
