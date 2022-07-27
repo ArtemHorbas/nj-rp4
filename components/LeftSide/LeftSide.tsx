@@ -14,7 +14,7 @@ const menu = [
 export const LeftSide: React.FC = () => {
 	return (
 		<div className='left-side w-[150px]'>
-			<ul>
+			<ul className='flex flex-col space-y-4'>
 				{menu.map(obj => (
 					<li key={obj.path}>
 						<Link href={obj.path}>

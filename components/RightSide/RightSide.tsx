@@ -49,7 +49,7 @@ export const RightSide: React.FC = () => {
 	const [open, setOpen] = React.useState(true)
 	
 	return (
-		<div className='right-side w-[245px]'>
+		<div className='right-side w-[260px]'>
 			<div onClick={() => setOpen(!open)} className='flex items-center space-x-3 mb-5 cursor-pointer'>
 				<h1>Comments</h1>
 				<IconButton>
