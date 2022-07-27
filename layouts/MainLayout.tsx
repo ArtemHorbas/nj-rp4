@@ -34,7 +34,7 @@ export const MainLayout: React.FC<MainLayoutProps> = ({
 					<>
 						{children}
 					</>
-					{/* <RightSide /> */}
+					<RightSide />
 				</main>					
 			</div>
 
