@@ -5,6 +5,9 @@ html, body{
 	@include params(16px, 120%);
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
+}
+
+.__next{
 	background-color: #9B9B9B;
 }
 
